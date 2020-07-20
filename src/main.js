@@ -1,6 +1,6 @@
 var exec = require("child_process").exec;
 var http = require("http");
-var Notifier = require("git-notifier").Notifier;
+var Notifier = require("node-github-bitbucket-notifier").Notifier;
 
 function alwaysArray(arrayOrSomethingElse) {
   if (Array.isArray(arrayOrSomethingElse)) {

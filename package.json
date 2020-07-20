@@ -28,8 +28,8 @@
     "push-to-deploy": "./bin/push-to-deploy"
   },
   "dependencies": {
-    "git-notifier": "2.1.x",
     "js-yaml": "3.2.x",
+    "node-github-bitbucket-notifier": "github:smurp/node-github-bitbucket-notifier",
     "nopt": "3.0.x"
   },
   "devDependencies": {
